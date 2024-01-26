@@ -1,5 +1,4 @@
 import sys
-import logger
 def error_message_detail(error,error_detail:sys):
    _,_, exc_tb = error_detail.exc_info()
    error_message=f"error occured in script name {exc_tb.tb_frame.f_code.co_filename} in line number {exc_tb.tb_lineno} error message {str(error)}"
