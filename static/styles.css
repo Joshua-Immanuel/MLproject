@@ -1,0 +1,85 @@
+/* Reset some default styles */
+body, h1, h2, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #00bcd4, #3f51b5);
+    color: #fff;
+}
+
+.login {
+    width: 60%;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.login:hover {
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+h1 {
+    text-align: center;
+    color: #673ab7;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #009688;
+}
+
+.form-label {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.form-control {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #ff4081;
+    border-radius: 8px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.form-control:focus {
+    border-color: #e91e63;
+}
+
+.btn-primary {
+    background-color: #ff4081;
+    color: #fff;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #e91e63;
+}
+
+/* Add some spacing for better readability */
+.mb-3 {
+    margin-bottom: 30px;
+}
+
+/* Style the result */
+h2 {
+    text-align: center;
+    margin-top: 40px;
+    color: #2196f3;
+    font-size: 2.5em;
+}
